@@ -1,0 +1,20 @@
+En parejas, crear un único repositorio de GitHub y subir un proyecto realizado en cualquier lenguaje de programación.
+
+Investigar y realizar un video en el cual muestren la forma en la que la persona A sube cambios al repositorio remoto y 
+la Persona B descarga esos cambios en su repositorio local, después, realizar el proceso inverso, la persona B sube cambios 
+al repositorio remoto y la persona A baja esos nuevos cambios a su repositorio local.
+
+ Las instrucciones principales que tienen que investigar son git clone, git pull y git fetch.
+ El video tiene que mostrar todo el proceso mencionado anteriormente.
+ Investigar también la diferencia entre git pull y git fetch.
+ Adjuntar el nombre de los integrantes.
+
+ Integrantes:
+ Corona Martinez Erick
+ Guzman Sotelo Moises
+
+ (Moises) crea el proyecto y lo modifica, en este caso sera una calculadora muy basica en java. 
+ Moises hara el metodo suma.
+ (Erick) descargara el proyecto en su repositorio local y agregara resta y multiplicacion, para luego volver a subirlo.
+ (Moises) descargara el proyecto con los cambios y agregara el metodo de division.
+ 
