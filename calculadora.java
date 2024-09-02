@@ -15,9 +15,10 @@ public class calculadora{
                 resultado = num1 + num2;
                 break;
             case '-':
+                resultado = num1 - num 2;
                 break;
             case '*':
-              
+                resultado = num1 * num 2;
                 break;
             case '/':
                 break;
