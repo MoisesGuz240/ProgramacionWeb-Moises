@@ -23,6 +23,16 @@ public class calculadora{
                 resultado = num1 * num 2;
                 break;
             case '/':
+            if (num2 != 0) {
+                resultado = num1 / num2;
+            } else {
+                System.out.println("Error: No se puede dividir por cero.");
+                return;
+            }
+            break;
+        default:
+            System.out.println("Operación no válida.");
+            return;
                 break;
         }
 
