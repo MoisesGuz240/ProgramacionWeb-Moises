@@ -15,9 +15,11 @@ public class calculadora{
                 resultado = num1 + num2;
                 break;
             case '-':
+                // Es una resta
                 resultado = num1 - num 2;
                 break;
             case '*':
+                // Es una multiplicacion
                 resultado = num1 * num 2;
                 break;
             case '/':
