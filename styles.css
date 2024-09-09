@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+}
+
+.profile-card:hover {
+    background-color: rgb(75, 241, 158);
+}
+
+.profile-img {
+    width: 150px; 
+    height: 150px; 
+}
+.profile-button {
+    background-color: #26721c;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+.profile-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.profile-bio {
+    font-size: 1em;
+    color: #090606;
+    margin-bottom: 20px;
+}
+
