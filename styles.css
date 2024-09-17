@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    max-height: 700px;
+    max-width: 1500px;
+}
+.container__left{
+    width: 50%;
+    background-color: #f6f7f9;
+}
+.container__right{
+    width: 50%;
+    padding: 90px 250px;
+
+}
+.container__rigth>h1{
+    font-size: 1.3rem;
+}
+.container__rigth>p{
+    font-size: 0.9rem ;
+}
+.container__left> img{
+    width: 100%;
+    height: 100%;
+}
+.input__container{
+    background-color: #f6f7f9;
+    margin-bottom: 0.8rem;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.input__container>input{
+    border: none;
+    width: 80%;
+    background-color: transparent;
+}
+.input__container>input:focus{
+    outline: none;
+}
+.input__container:focus-within{
+    outline: 1px solid #157aff;
+}
+input{
+    color: gray;
+}
+.input__container>span{
+    background-color: white;
+    color: #157aff;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+img{
+    height: 150px;
+}
+strong{
+    color: #157aff;
+    text-align: end;
+    display: block;
+    font-size: 0.75rem;
+}
+button{
+    width: 100%;
+    margin-top: 1.5rem;
+    height: 35px;
+    background-color: #157aff;
+    color: azure;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 8px;
+}
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.divider>hr{
+    width: 40%;
+}
+.social__icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.social__icon> img{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+.social__icon{
+    border: 1px solid gainsboro;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+.create__account{
+    text-align: center;
+}
+.create__account> a{
+    color:#157aff;
+}
+footer{
+    text-align: center;
+    color: rgb(189, 191, 192);
+    margin-top: 120px;
+}
