@@ -1,0 +1,127 @@
+.container{
+    display: flex;
+    max-height: 700px;
+    max-width: 1500px;
+}
+.container__left{
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: #f6f7f9;
+    text-align: center;
+}
+.container__left> img{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.container__right{
+    width: 50%;
+}
+.container__left>h1{
+    font-size: 1.8rem;
+}
+.container__left>p{
+    font-size: 0.9rem ;
+    color: rgb(155, 155, 151);
+    margin-top: -20px;
+}
+.sign{
+    display:flex;
+    justify-content: space-around;
+    background-color: #cfc9c9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.sign__in{
+    background-color:  #f6f7f9;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign__up{
+    width: 50%;
+}
+.container__input{
+    background-color: #d1d2d4;
+    margin-bottom: 0.8rem;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.container__input>input{
+    border: none;
+    width: 80%;
+    background-color: transparent;
+    color: black;
+}
+.container__input>input:focus{
+    outline: none;
+}
+.container__input:focus-within{
+    outline: 1px solid #aaabab;
+}
+input{
+    color: gray;
+}
+.container__input>span{
+    background-color: white;
+    color: #157aff;
+    padding: 5px;
+    border-radius: 10px;
+}
+button{
+    width: 100%;
+    margin-top: none;
+    height: 35px;
+    background-color: #157aff;
+    color: azure;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 8px;
+}
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.divider>hr{
+    width: 40%;
+}
+.social__icons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.social__icon> img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+}
+.social__icon{
+    text-align: center;
+}
+footer{
+    font-size: 0.9rem ;
+    color: rgb(155, 155, 151);
+    padding: 40px;
+    margin-top: 30px;
+}
+.container__right{
+    overflow: hidden;
+}
+.container__right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
