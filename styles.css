@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+:root{
+    --green-light: #65cf97;
+    --gray-light: #00000053;
+    --green-medium: #04a170;
+    --green-strong: #007a31;
+    --green: #064821;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    height: 5rem;
+    padding: 0 3rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.navbar__logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.navbar__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    list-style: none;
+}
+
+.navbar__list__item{
+    color: var( --gray-light);
+}
+
+.navbar__list__item>a{
+    text-decoration: none;
+}
+
+.navbar__button{
+    border: none;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--green-light);
+    gap: 0.5rem;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;;
+    height: 400px;
+    justify-content: center;
+}
+
+.main__container{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.main__text__green{
+    color: var(--green-medium);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+}
+
+.main__title{
+    color: var(--green-strong);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.main__text__gray{
+    color: var(--gray-light);
+    font-size: 0.9rem;
+    width: 70%;
+}
+
+.main__input__container{
+    margin-top: 4rem;
+    display: 70%;
+    display: flex;
+}
+
+.main__input__container>input{
+    background-color: whitesmoke;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main__input__container>input:focus{
+    outline: 1px solid var(--green-medium);
+}
+
+.main__input__button{
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--green-medium);
+}
+.container__trailer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--gray-light);
+}
+.container__perfiles{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.container__perfiles>li{
+    list-style: none;
+}
+.container__perfiles>li> img{
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    position:relative;
+}
+
+.info__tarjetas>h3{
+    color: var(--green-light);
+}
+.info__tarjetas>h1{
+    color: var(--green);
+    padding: 5px;
+}
+.info__tarjetas>p{
+    color: var(--gray-light);
+}
+.info__tarjetas{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.container__tarjeta1>p{
+    color: var(--gray-light);
+}
+.container__tarjeta1{
+    width: 30%;
+    height: 350px;
+    padding: 40px;
+    background-color: var(--gray-light);
+    border-radius: 10px;
+}
+.container__tarjeta2{
+    width: 30%;
+    height: 350px;
+    padding: 40px;
+    background-color: black;
+    border-radius: 10px;
+    color: azure;
+}
+.container__tarjeta2>span{
+    margin-bottom: 40px;
+}
+.caracteristica2{
+    color: azure;
+    display: flex;
+}
+.caracteristica2>span{
+    background-color: azure;
+    color: black;
+    border-radius: 100%;
+}
+.container__tarjeta1>span{
+    margin-bottom: 40px;
+}
+.caracteristica{
+    display: flex;
+    color: var(--gray-light);
+}
+.boton__tarjeta{
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    color: var(--green);
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(168, 237, 168);
+    margin-top: 40px;
+    width: 80%;
+}
+.container__tarjetas{
+    display: flex;
+}
+.caracteristicas__tarjeta1{
+    margin-top: 40px;
+}
+.container__tarjetas{
+    padding: 60px;
+}
+.imagen1{ left: 15px;}
+.imagen2{ left: 0px;}
+.imagen3{ left: -15px;}
+.imagen4{ left: -30px;}
+.imagen5{ left: -45px;}
+
