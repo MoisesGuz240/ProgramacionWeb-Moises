@@ -1,0 +1,429 @@
+:root{
+    --gray: rgb(230, 230, 230);
+    --gray_p: rgb(138, 138, 138);
+}
+.container{
+    display: flex;
+
+}
+.container__left{
+    width: 15%;
+}
+.container__right{
+    width: 85%;
+    border-left: 1px solid rgb(153, 152, 152);
+}
+.container__left>ul{
+    list-style: none;
+}
+.container__left>ul>li{
+    display: flex;
+    align-items: center;
+}
+.container__left>div{
+    display: flex;
+    align-items: center;
+}
+.container__left>ul>li>img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.container__left>hr{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.right__top{
+    margin: 0px 30px;
+}
+.right__top__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil>img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.usuarios>img{
+    border-radius: 15px;
+    width: 65px;
+    height: 65px;
+}
+.orders{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.butons{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.datos__perfil{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.butons>div{
+    padding: 4px 4px;
+    background-color: var(--gray);
+    border-radius: 30px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.butons>div>button{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+}
+.butons>div> :first-child{
+    background-color: white;
+}
+.butons>div> :last-child{
+    background-color: var(--gray);
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.carrito>button{
+    display: flex;
+    align-items: center;
+    background-color: var(--gray);
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin-right: 10px;
+    border: none;
+}
+.num__orders{
+    font-size: 3rem;
+}
+#barra{
+    color: var(--gray);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.orders__days>strong{
+    margin: 0;
+}
+.orders__days>p{
+    margin: 0;
+}
+.clara{
+    color: var(--gray_p);
+}
+.clara>strong{
+    color: black;
+}
+.lista__mid>li>i{
+    background-color: var(--gray);
+    border-radius: 15px;
+    margin-right: 4px;
+}
+.lista__bot>li>img{
+    margin-right: 4px;
+}
+.explore{
+    width: 15%;
+}
+.explore>strong{
+    font-size: 2.5rem;
+}
+.butons__bot{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filtro{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.right__top__bot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.butons__bot>button{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo>img{
+    width: 150px;
+    height: 150px;
+}
+.logout{
+    margin-left: 25px;
+}
+.filtro>button{
+    padding: 13px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.perfil>p{
+    margin-left: 5px;
+}
+.main{
+    border-top: 1px solid var(--gray_p);
+    display: flex;
+    height: 82%;
+}
+.right__top{
+    margin-bottom: 15px;
+}
+.main__right{
+    width: 50%;
+    border: 2px solid green;
+}
+.main__left{
+    width: 50%;
+}
+.right__top{
+    height: 17%;
+}
+.main__left__top{
+    height: 60%;
+}
+.main__left__bot{
+    height: 40%;
+    display: flex;
+}
+.main__right__top{
+    height: 70% ;
+    border: 2px solid black;
+    display: flex;
+}
+.main__right__bot{
+     height: 30%;
+     border: 2px solid brown;
+}
+.arriba{
+    height: 45%;
+    background-color: rgb(127, 167, 243);
+    margin: 10px;
+    border-radius: 15px;
+    position: relative;
+}
+.abajo{
+    height: 45%;
+    background-color: rgb(122, 222, 146);
+    margin: 10px;
+    border-radius: 15px;
+}
+.derecha{
+    width: 50%;
+    height: 100%;
+}
+.izquierda{
+    width: 50%;
+    height: 100%;
+    border: 2px solid var(--gray);
+    border-radius: 10px;
+}
+.right__der{
+    width: 50%;
+    height: 100%;
+    border: 2px solid rgb(205, 15, 15);
+}
+.right__izq{
+    width: 50%;
+    height: 100%;
+    border: 2px solid blue;
+}
+.mujerAzul{
+    height: 245px;
+    position: absolute;
+    top: -50px;
+    left: 50px
+}
+.hombreAzul{
+    height: 205px;
+    position: absolute;
+    top: -10px;
+    left: 400px;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+.contenido>strong{
+    font-size: 2rem;
+}
+.contenido>button{
+    padding: 13px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+}
+.mujerVerde{
+    height: 225px;
+    width: 550px;
+    position: absolute;
+    top: -80px;
+    left: 200px;
+}
+.contenido2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    position: relative;
+    top: 50px;
+}
+.contenido2>strong{
+    font-size: 2.5rem;
+}
+.contenido2>p{
+    margin-left: 5px;
+}
+.contenido2>button{
+    padding: 13px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+}
+.derecha{
+    background-color: var(--gray);
+    position: relative;
+    margin: 0px 10px;
+    border-radius: 15px;
+}
+.derecha>img{
+    position: absolute;
+    height: 280px;
+    top: 0;
+    left: -30px;
+}
+.derecha>i{
+        position: absolute;
+        top: 10%; /* Centrado verticalmente */
+        left: 90%; /* Centrado horizontalmente */
+        color: rgb(0, 0, 0);
+        background-color: var(white);
+        border-radius: 100%;
+        transform: translate(-50%, -50%); /* Centrar exactamente */
+        font-size: 24px; /* Tamaño del texto */
+        font-weight: bold; /* Grosor del texto */
+}
+.derecha>button{
+    padding: 13px;
+    width: 180px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    top: 70%; /* Centrado verticalmente */
+    left: 25%; /* Centrado horizontalmente */
+    color: rgb(0, 0, 0);
+    background-color: var(white);
+    border-radius: 10px;
+}
+.izquierda__arriba{
+    margin-top: 4px;
+    width: 90%;
+    background-color: var(--gray);
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+}
+.izquierda__arriba>div{
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+}
+.izquierda__arriba>div>p{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.izquierda__arriba>p{
+    font-size: 1.3rem;
+}
+.izquierda__abajo{
+    margin-top: 4px;
+    width: 90%;
+    background-color: var(--gray);
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px; 
+}
+.hombre{
+    margin-top: 10px;
+    height: 200px;
+    background-color:rgb(198, 198, 198);
+    border-radius: 15px;
+}
+.hombre2{
+    height: 140px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 15px;
+}
+.seeAll{
+    padding: 13px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+}
+.right__der>img{
+    height: 360px;
+}
+.right__izq> img{
+    height: 360px;
+}
+.main__right__bot>div>img{
+    height: 200px;
+}
+.main__right__bot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__right__bot>div>strong{
+    font-size: 2.5rem;
+}
+.main__right__bot>div>p{
+    font-size: 1.3rem;
+}
