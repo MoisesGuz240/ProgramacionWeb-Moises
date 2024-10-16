@@ -199,7 +199,6 @@
 }
 .main__right{
     width: 50%;
-    border: 2px solid green;
 }
 .main__left{
     width: 50%;
@@ -216,23 +215,21 @@
 }
 .main__right__top{
     height: 70% ;
-    border: 2px solid black;
     display: flex;
 }
 .main__right__bot{
      height: 30%;
-     border: 2px solid brown;
 }
 .arriba{
     height: 45%;
-    background-color: rgb(127, 167, 243);
+    background-color: #58A8AD;
     margin: 10px;
     border-radius: 15px;
     position: relative;
 }
 .abajo{
     height: 45%;
-    background-color: rgb(122, 222, 146);
+    background-color: #94B447;
     margin: 10px;
     border-radius: 15px;
 }
@@ -249,12 +246,10 @@
 .right__der{
     width: 50%;
     height: 100%;
-    border: 2px solid rgb(205, 15, 15);
 }
 .right__izq{
     width: 50%;
     height: 100%;
-    border: 2px solid blue;
 }
 .mujerAzul{
     height: 245px;
@@ -388,12 +383,12 @@
 .hombre{
     margin-top: 10px;
     height: 200px;
-    background-color:rgb(198, 198, 198);
+    background-color:#b7b7b7;
     border-radius: 15px;
 }
 .hombre2{
     height: 140px;
-    background-color: rgb(198, 198, 198);
+    background-color: #b7b7b7;
     border-radius: 15px;
 }
 .seeAll{
@@ -414,7 +409,9 @@
     height: 360px;
 }
 .main__right__bot>div>img{
-    height: 200px;
+    height: 225px;
+    position: relative;
+    left: 5PX;
 }
 .main__right__bot{
     display: flex;
@@ -426,4 +423,70 @@
 }
 .main__right__bot>div>p{
     font-size: 1.3rem;
+}
+.right__izq{
+    border-radius: 15px;
+    background-color: #526ea2;
+    margin-top: 10px;
+}
+.right__der{
+    border-radius: 15px;
+    background-color:#526ea2 ;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.main__right__bot{
+    border-radius: 15px;
+    background-color: #94B447;;
+    margin-top: 20px;
+}
+.producto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.info>strong{
+    font-size: 1.4rem;
+    color: rgb(228, 225, 225);
+}
+.info>p{
+    color: rgb(228, 225, 225);;
+}
+.producto>button{
+    border-radius: 15px;
+    width: 60px;
+    background-color: rgb(50, 216, 242);
+    padding: 10px;
+    border: none;
+}
+.info{
+    line-height: 0.5; 
+    margin: 0; 
+    padding: 0; 
+}
+.right__der>img{
+    margin-left: 50px;
+}
+.right__izq>img{
+    margin-left: 25px;
+}
+.lista__bot>li:hover{
+    background-color: rgb(3, 200, 244);
+    border-radius: 15px;
+    color: white;
+}
+.lista__top>li:hover{
+    background-color: rgb(3, 200, 244);
+    border-radius: 15px;
+    color: white;
+}
+.lista__mid>li:hover{
+    background-color: rgb(3, 200, 244);
+    color: white;
+    border-radius: 15px;
+}
+.logout:hover{
+    border: 2px solid black;
+    border-radius: 15px;
 }
